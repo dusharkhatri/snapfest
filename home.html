@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        @font-face {
+            font-family: gtsuper;
+            src: url(GT-Super/GT-Super/GT-Super-Display-Light-Trial.otf);
+        }
+
+        .navbar {
+            width: 100vw;
+            display: flex;
+            margin: -8px;
+            padding: 0px;
+            height: 111px;
+            /* width: 95vw; */
+            background-color: #c9a48e;
+            /* border: 2px solid black; */
+            align-items: center;
+            /* justify-content: center; */
+        }
+
+        .navbar2 {
+            display: flex;
+            justify-content: center;
+            height: 42px;
+            background-color: #f2edea;
+            margin: 8px -8px 0px -8px;
+            transition: 0.6s;
+        }
+
+        .navbar2:hover {
+            background-color: #c9a48e;
+        }
+
+        .navbar2:hover button {
+            background-color: #c9a48e;
+        }
+
+        .navbar2 button {
+            background-color: #f2edea;
+            border: 0px;
+            font-family: gtsuper;
+            font-size: 18px;
+            margin: 3px 95px 3px 95px;
+            border-radius: 10px;
+            transition: 0.6s;
+        }
+
+        .navbar2 button:hover {
+            cursor: pointer;
+            background-color: #b9937e;
+        }
+
+        .sf {
+            display: flex;
+            background-color: #c9a48e;
+            padding: 0px 0px 0px 8px;
+            font-size: 110px;
+            font-family: gtsuper;
+            letter-spacing: -0.1985em;
+            border: 0px;
+            align-items: center;
+            height: 110px;
+        }
+
+        .arrow {
+            width: 35px;
+            height: 40px;
+            /* margin: 0px 0px 0px 663px; */
+            background-color: #748890;
+            border: 0px;
+            border-radius: 100px 0px 0px 100px;
+        }
+
+        .arrow:hover {
+            cursor: pointer;
+        }
+
+        .arrow-bottom {
+            margin: 17px 0px 0px 12px;
+            padding: 0px 0px 0px 0px;
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 7px solid #000000;
+        }
+
+        .navbar button:hover {
+            cursor: pointer;
+        }
+
+        #searchbar {
+            background-color: #f2edea;
+            border: 0px;
+            /* border-radius: ; */
+            font-family: gtsuper;
+            font-size: 18px;
+            width: 354px;
+            height: 38px;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .bigSearchBar {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .searchicon {
+            display: flex;
+            height: 40px;
+            width: 35px;
+            background-color: #f2edea;
+            margin: 2px;
+            border-radius: 0px 100px 100px 0px;
+            align-content: center;
+            flex-wrap: wrap;
+            /* justify-content: center; */
+        }
+
+        .searchicon img {
+            margin: 0px 0px 0px 4px;
+        }
+
+        .searchicon:hover {
+            cursor: pointer;
+        }
+
+        .navbar span {
+            display: table;
+            margin: 0 0 0 1px;
+        }
+
+        input {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ccc;
+        }
+
+        @media only screen and (max-width: 1600px) {
+            .navbar2 button {
+                margin: 3px 60px 3px 60px;
+            }
+        }
+        .looking{
+            display: flex;
+            justify-content: center;
+            margin: 84px 0px 0px 0px;
+            font-family: gtsuper;
+            font-size: 52px;
+        }
+
+        
+    
+    </style>
+</head>
+
+<body style="background-color: #f2edea">
+    <div class="navbar">
+        <button class="sf">SF</button>
+        <div class="bigSearchBar">
+
+            <div class="arrow">
+                <div class="arrow-bottom"></div>
+            </div>
+            <span class="searchbar">
+                <label for="searchbar"></label>
+                <input type="text" id="searchbar" name="searchbar" placeholder="search snapfest">
+            </span>
+            <div class="searchicon">
+                <img src="iconamoon_search-thin.png" alt="searchicon">
+            </div>
+        </div>
+    </div>
+    <div class="navbar2">
+        <button>Upcoming Events</button>
+        <button>Recent Albums</button>
+        <button>Blah Blah</button>
+        <button>Blahhhhh</button>
+        <button>Kanye West</button>
+        <button>Leave a Review!</button>
+    </div>
+    <div class="looking">
+        Looking to plan something? We've got you covered!
+    </div>
+
+
+</body>
+
+</html>
